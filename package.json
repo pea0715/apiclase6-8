@@ -1,0 +1,26 @@
+{
+  "name": "restaurante12",
+  "version": "1.0.0",
+  "description": "restaurante12",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pea0715/apiclase6-8.git"
+  },
+  "author": "pea0715",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pea0715/apiclase6-8/issues"
+  },
+  "homepage": "https://github.com/pea0715/apiclase6-8#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
