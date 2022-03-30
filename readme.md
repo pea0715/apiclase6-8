@@ -9,6 +9,14 @@
 |----index.js
 |----gitignore 
 ´´´
+````jnson
+{
+    "ok":"Boolean",
+    "message":"String",
+    "info":"object"
+}
+````
+
 
 1.controllers: controlar el trafico de información
 2.routers: declarar las rutas del api

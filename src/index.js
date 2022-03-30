@@ -1,27 +1,26 @@
-// importacion del fremework 
+// IMportacion del frameword de expree
 const express = require('express')
 
-// creando la aplicacion 
+require('../config/index.config');
+
+
+//Creando la aplicacion de expree
 const app = express()
 
-// integrando el router con la aplicacion
-const router =  require("./routers/index.routers")
+// Integrado el router con la API
+const router = require('./routers/index.router')
 app.use(router)
-
-
-
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-/// puerto donde se levanta el servidor web 
-// puerto donde esta escuchando la API 
-const port = 3000
+//Puerto donde se levantea el servidor web
+const PORT = 3000
 
-//levantar la API que estara escuchando en el puerto  3000
-// 1.Primer parametro: puerto 
-// 2.Segundo parametro: callback
-app.listen(port, () => {
-  console.log(`API escuchando en: http://localhost:${port}`)
+// Levantar la API que estara escuchado en el PUERTO 3000
+//1. Primer Parametro: Puerto
+//2. Segundo Parametro: CallBack
+app.listen(PORT, () => {
+  console.log(`no se meta hpta: http://localhost:${PORT}`)
 })
